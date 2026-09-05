@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include<stdbool.h>
 #include <string.h>
+#include <math.h>
 
 int main () {
     int age = 0;
@@ -15,6 +16,18 @@ int main () {
     int d = 5;
     int r = 5;
     int s = 0;
+    int z = 9;
+    float q = 45;
+    //z = sqrt(z);
+    //z = pow(z, 2);
+    
+      //q = round(q);
+      //q = ceil(q);
+      //q = sin(q);
+      //q = cos(q);
+      q = tan(q);
+    //printf("%d", z);
+    printf("%f", q);
     d++;
     d--;
     
